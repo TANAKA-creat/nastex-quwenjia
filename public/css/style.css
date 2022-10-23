@@ -1,21 +1,21 @@
 h1 {
     font-size: 20px;
     margin-bottom: 10px;
-    border-bottom: 2px solid rgb(185, 14, 119);
+    border-bottom: 2px solid rgb(237, 21, 154);
     display: flex;
     align-items: center;
-    color:aliceblue
+    color:rgb(237, 21, 154);
 }
 
 h1 > a {
     font-size: 16px;
     font-weight: normal;
     margin-left: auto;
-    color:azure;
+    color:rgb(237, 21, 154);
 }
 
 h1 > span {
-    color:aliceblue;
+    color:rgb(237, 21, 154);
 }
 
 a {
@@ -25,17 +25,17 @@ a {
 h2 {
     font-size: 16px;
     margin-top: 40px;
-    color:beige;
+    color:rgb(237, 21, 154);
 }
 
 li > a {
-    color:lightcyan;
+    color:rgb(237, 21, 154);
 }
 
 p {
     line-height: 1.6;
     font-weight: bold;
-    color:azure;
+    color:rgb(237, 21, 154);
 }
 
 li {
@@ -52,10 +52,10 @@ li {
 
 .back-link {
     font-size: 14px;
-    color:rgb(244, 9, 115);
+    color:rgb(237, 21, 154);
 }
 .back-link > a{
-    color:beige;
+    color:rgb(237, 21, 154);
 }
 
 input,textarea {
@@ -92,7 +92,7 @@ button {
     background: transparent;
     font-size: 16px;
     font-weight: normal;
-    color: rgb(208, 32, 79);
+    color: rgb(237, 21, 154);
     cursor: pointer;
     vertical-align: 1px;
 }
@@ -121,13 +121,13 @@ button {
 
 .advice1 {
     font-size: 15px;
-    color:rgb(243, 239, 234);
+    color:rgb(237, 21, 154);
 }
 
 .advice2 {
     font-size: 12px;
     padding-left: 10px;
-    color:rgb(253, 251, 249);
+    color:rgb(237, 21, 154);
 }
 
 .comment-font {
@@ -135,10 +135,10 @@ button {
 }
 
 body {
-    background-image: url(dreamstimefree_122594640.jpg);
+    background-image: url(tegakihoshi57.png);
     background-size: 100%;
 }
 
 label {
-    color:azure;
+    color:rgb(237, 21, 154);
 }
