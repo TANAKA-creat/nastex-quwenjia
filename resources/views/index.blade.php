@@ -9,6 +9,7 @@
         <a href="{{ route('posts.create') }}">
             [日報を書く]
         </a>
+        <a href="{{ route('photos.create')}}">[画像投稿]</a>
     </h1>
     <div class="advice">
     <p class="advice1">記録日</p>

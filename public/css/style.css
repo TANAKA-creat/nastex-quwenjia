@@ -20,6 +20,7 @@ h1 > span {
 
 a {
     text-decoration: none;
+    color:black;
 }
 
 h2 {
@@ -47,7 +48,7 @@ li {
 
 .container {
     margin: 40px auto;
-    width: 480px;
+    width: 500px;
 }
 
 .back-link {
@@ -56,6 +57,8 @@ li {
 }
 .back-link > a{
     color:rgb(237, 21, 154);
+    display: flex;
+    margin: 5px;
 }
 
 input,textarea {
@@ -142,3 +145,15 @@ body {
 label {
     color:rgb(237, 21, 154);
 }
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.column {
+    border: dotted 1px black;
+    width: 150px;
+    text-align: center;
+}
+

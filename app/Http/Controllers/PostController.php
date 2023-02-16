@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Post;
 use App\Http\Requests\PostRequest;
+use App\Models\Photo;
+
+use App\Http\Services\PhotoService;
 
 class PostController extends Controller
 {
@@ -12,9 +15,11 @@ class PostController extends Controller
     public function index()
     {
         $posts = Post::latest()->get();
+        $photos = PhotoService::getPhoto();
 
         return view('index')
-        ->with(['posts'=>$posts]);
+        ->with(['posts'=>$posts])
+        ->with(['photos'=>$photos]);
     }
 
         //show

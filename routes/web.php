@@ -5,7 +5,7 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ReturnCommentController;
 use App\Http\Controllers\UserController;
-
+use App\Http\Controllers\PhotoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,5 +58,26 @@ Route::delete('/return_comments/{return_comment}/destroy',[ReturnCommentControll
 ->name('return_comments.destroy')
 ->where('return_comment','[0-9]+');
 
+// photos
+Route::get('/photos/create', [PhotoController::class, 'create'])
+->name('photos.create');
 
+Route::post('/photos/store', [PhotoController::class, 'store'])
+->name('photos.store')
+->where('photo','[0-9]+');
 
+Route::get('/photos/show', [PhotoController::class, 'show'])
+->name('photos.show')
+->where('photo', '[0-9]+');
+
+Route::get('/photos/edit/{photo}', [PhotoController::class, 'edit'])
+->name('photos.edit')
+->where('photo', '[0-9]+');
+
+Route::post('/photos/update/{photo}', [PhotoController::class, 'update'])
+->name('photos.update')
+->where('photo', '[0-9]+');
+
+Route::delete('/photos/{photo}/destroy', [PhotoController::class, 'destroy'])
+->name('photos.destroy')
+->where('photo', '[0-9]+');
