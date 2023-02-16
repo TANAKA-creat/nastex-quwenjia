@@ -4,7 +4,7 @@
     </x-slot>
 
     <div class="back-link">
-        &laquo; <a href="{{ route('posts.show',$post) }}">戻る</a>
+        <a href="{{ route('posts.show',$post) }}">&laquo; 戻る</a>
     </div>
     <h1>編集 - 業務報告</h1>
     <form method="post" action="{{ route('posts.update', $post) }}">

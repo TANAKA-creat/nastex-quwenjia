@@ -16,11 +16,11 @@ class PostController extends Controller
     {
         $posts = Post::latest()->get();
         // $photos = PhotoService::getPhoto();
-        $photos = Photo::all();
+        // $photos = Photo::all();
 
         return view('index')
-        ->with(['posts'=>$posts])
-        ->with(['photos'=>$photos]);
+        ->with(['posts'=>$posts]);
+        // ->with(['photos'=>$photos]);
     }
 
         //show

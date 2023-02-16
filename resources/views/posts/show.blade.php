@@ -4,7 +4,7 @@
     </x-slot>
 
     <div class="back-link">
-        &laquo; <a href="{{ route('posts.index') }}">戻る</a>
+        <a href="{{ route('posts.index') }}">&laquo; 戻る</a>
     </div>
 
     <h1>
